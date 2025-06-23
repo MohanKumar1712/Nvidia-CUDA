@@ -1,0 +1,21 @@
+Timing (on 1000000000 elements):
+Sequential    : 2748 ms
+Multithreaded : 1168 ms
+CUDA          : 1617 ms
+
+Speedups:
+Multithreaded : 2.35274x
+CUDA          : 1.69944x
+Multithreaded matches the sequential version.
+CUDA matches the sequential version.
+
+Input Data Sample [0-9]: 57 12 140 125 114 71 52 44 216 16
+ 
+Sequential Version
+[SEQ] Sample bins [0-9]: [0]=65025 [1]=65200 [2]=65301 [3]=65293 [4]=65233 [5]=65233 [6]=65432 [7]=65100 [8]=65512 [9]=65198
+ 
+Multithreaded Version
+[MT ] Sample bins [0-9]: [0]=65025 [1]=65200 [2]=65301 [3]=65293 [4]=65233 [5]=65233 [6]=65432 [7]=65100 [8]=65512 [9]=65198 
+ 
+CUDA Version
+[CUDA] Sample bins [0-9]: [0]=65025 [1]=65200 [2]=65301 [3]=65293 [4]=65233 [5]=65233 [6]=65432 [7]=65100 [8]=65512 [9]=65198 
