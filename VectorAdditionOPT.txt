@@ -1,0 +1,28 @@
+11. Vector Addition
+Vector Size: 8
+CPU Time: 0.0005 ms
+GPU Time: 10.1873 ms
+Speedup:  4.90807e-05x
+Correctness: PASS
+
+Sample Output (Vector Add):
+1.50 + 2.50 = 4.00
+3.00 + -3.00 = 0.00
+5.20 + 1.80 = 7.00
+7.10 + 0.90 = 8.00
+0.50 + 3.50 = 4.00
+-1.00 + 1.00 = 0.00
+2.20 + -2.20 = 0.00
+4.40 + 5.60 = 10.00
+
+Vector Size: 10000
+CPU Time: 0.07 ms
+GPU Time: 0.03 ms
+Speedup:  1.96x
+Correctness: PASS
+
+Vector Size: 1000000
+CPU Time: 7.97 ms
+GPU Time: 0.51 ms
+Speedup:  15.71x
+Correctness: PASS

@@ -1,0 +1,9 @@
+Finding primes up to 10000000...
+
+Sequential    : 664579 primes in 7580 ms
+Multithreaded : 664579 primes in 1073 ms
+CUDA          : 664579 primes in 959 ms
+
+Speedups vs Sequential:
+Multithreaded: 7.06431x
+CUDA         : 7.90407x
